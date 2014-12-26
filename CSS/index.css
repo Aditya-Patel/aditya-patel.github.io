@@ -1,0 +1,73 @@
+/*
+	Resume Website Styles
+	Author:Aditya Patel 
+	Date:11/3/14   
+	
+	Filename:         hs_styles.css
+*/
+
+/* Header Styles */
+body header h1 {
+	position: relative;
+	left: 400px;
+	}
+
+/* Nav List Styles */
+body section nav {
+	display: block;
+	width: 200px;
+	float: left;
+	margin-right:10px;
+	margin-left:-45px;
+	margin-top:-120px;
+	}
+
+
+body section nav ul{
+	list-style-type: none;
+	font-size:18px;
+	font-family: Arial, Verdana, sans-serif;
+	}
+	
+body section nav ul li {
+	background-color: rgb(0,200,0);
+	}
+
+body section nav ul li:hover {
+	background: LimeGreen;
+	}
+	
+body section nav ul li a{
+	text-decoration: none;
+	color: white;
+	color: rgba(255,255,255,0.99);
+	}
+
+/* Text Styles */
+body h2 {
+	text-align:center;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 36px;
+	margin-top: -10px;
+	margin-right: 250px;
+	}
+
+body p {
+	text-align:center;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 20px;
+	}
+
+footer  address{
+	margin-top:100px;
+	background-color:rgb(0,200,0);
+	color:white;
+	color:rgba(255,255,255,0.8);
+	text-align: center;
+	font: normal small-caps 1em/4em Palatino Linotype, Book Antiqua, serif;
+	}
+	
+/* Body Styles */
+body {
+	background-color:#D8D8D8;
+	}

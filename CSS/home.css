@@ -1,0 +1,147 @@
+/*
+	Resume Website Styles
+	Author:Aditya Patel 
+	Date:11/3/14   
+	
+	Filename:         home.css
+*/
+
+/* General Styles */
+* {
+	font-family:Tahoma, Arial, sans-serif;
+	}
+	
+body {
+	background-color:#42A27E;
+	}
+
+/* Header Styles */
+header h1{
+	display:block;
+	float:left;
+	clear:both;
+	margin-top:-5px;
+	width:100%;
+	height:100%;
+	background-color:#2DA241;
+	margin-bottom:0px;
+	}
+	
+/* Nav Styles */
+section nav {
+	margin-top:-15px;
+	}
+
+section nav ul {
+	list-style-type:none;
+	clear:right;
+	background-color:#147953;
+	padding-left:0px;
+	padding-right:0px;
+	width:100%;
+	}
+
+section nav ul li{
+	display:inline;
+	padding-left:10px;
+	padding-right:10px;
+	border-right: 2px solid #004208;
+	font-size:16px;
+	}
+	
+section nav ul li:first-of-type {
+	border-left: 2px solid #004208;
+	background-color:#D3933B;
+	}
+	
+section nav ul li a{
+	color:#6EBFA0;
+	text-decoration:none;
+	}
+
+section nav ul li:first-of-type > a{
+	color:#8D5406;
+	}
+	
+section nav ul li a:hover{
+	color:#FFD192;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+
+section nav ul li:hover{
+	background-color:#8D5406;
+	}
+
+section nav ul li:first-of-type:hover{
+	background-color:#046C16;
+	}	
+section nav ul li:first-of-type > a:hover {
+	color:#78D188;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+
+/* Body Styles */
+h2 {
+	text-align:center;
+	border-bottom:2px solid #004208;
+	color:#93E2C0;
+	font-weight:normal;
+	font-size:32px;
+	margin-top:-10px;
+	}
+
+p.intro, p.info {
+	width:30%;
+	color:#93E2C0;
+	float:left;
+	padding-right:20px;
+	border-right: 2px solid #046C16;
+	}
+	
+p.info {
+	clear:left;
+	}
+	
+figure {
+	float:middle;
+	width:80%;
+	height:60%;
+	}
+	
+figure img {
+	margin-left:14%;
+	width:50%;
+	height:40%;
+	}
+	
+figcaption{
+	color:#93E2C0;
+	margin-left:10%;
+	float:middle;
+	text-align:center;
+	}
+	
+p.info > a{
+	color:black;
+	text-decoration:none;
+	}
+	
+/* Footer Styles */
+footer {
+margin-top:72px;
+text-align:center;
+float:middle;
+clear:both;
+background-color:#D4933B;
+height:35px;
+width:100%;
+}
+
+
+footer address {
+font-size:14px;
+font-family:Georgia, Times New Roman, serif;
+font-style:normal;
+}
